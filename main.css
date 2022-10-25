@@ -85,7 +85,8 @@
 }
 
 .quote-div div {
-    width: 60vw;
+    /* width: 60vw; */
+    width: 650px;
 }
 
 .quote-div-author {
