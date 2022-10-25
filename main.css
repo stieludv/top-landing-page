@@ -33,6 +33,7 @@
     border-color: var(--cta-button-bg-color);
     padding: 0.2rem 1.4rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .info-div {
@@ -104,6 +105,41 @@
     font-weight: 900;
     padding-right: 1rem;
     margin: 0;
+}
+
+.cta-div {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: var(--cta-button-bg-color);
+    color: white;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.cta-container p {
+    margin: 0;
+}
+
+.cta-container h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.cta-container p {
+    font-size: 0.8rem;
+    color: var(--hero-secondary-text-color);
+}
+
+.cta-container button {
+    border-color: white;
 }
 
 .nav-menu {
