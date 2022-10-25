@@ -73,8 +73,37 @@
     aspect-ratio: 1 / 1;
 }
 
-.quote {
+.quote-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quote-section-bg-color);
+    color: var(--quote-text-color);
+    padding: 6rem 0;
+}
 
+.quote-div div {
+    width: 60vw;
+}
+
+.quote-div-author {
+    text-align: right;
+}
+
+.quote-div-quote q {
+    font-size: 1.6rem;
+    quotes: none;
+    font-style: italic;
+    width: 160ch;
+}
+
+.quote-div-author p {
+    color: var(--dark-text-color);
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding-right: 1rem;
+    margin: 0;
 }
 
 .nav-menu {
@@ -106,10 +135,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.body {
-    padding: 0 10vw;
 }
 
 body {
