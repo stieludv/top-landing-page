@@ -4,6 +4,7 @@
     --hero-secondary-text-color: #E5E7EB;
     --logo-text-color: #F9FAF8;
     --cta-button-bg-color: #3882F6;
+    --blue-color: #3882F6;
     --information-header-color: #1F2937; 
     --quote-section-bg-color: #E5E7EB;
     --quote-text-color: #1F2937;
@@ -34,8 +35,42 @@
     border-radius: 5px;
 }
 
-.info-header {
+.info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
 
+.info-header {
+    color: var(--information-header-color);
+    padding: 1rem 0;
+    font-weight: 900;
+}
+
+.info-div-boxes {
+    display: flex;
+    gap: 3rem;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+}
+
+.info-box-media {
+    margin: 0 1rem;
+    border-style: solid;
+    border-color: var(--blue-color);
+    border-width: 3px;
+    border-radius: 1rem;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .quote {
@@ -71,6 +106,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.body {
+    padding: 0 10vw;
 }
 
 body {
